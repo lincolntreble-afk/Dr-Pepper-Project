@@ -2,7 +2,7 @@ import '../../Pages/About/AboutPage.css'
 
 import Header from '../../Components/Header/Header'
 
-import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet-async'
 
 import MainFooter from '../../Components/Footer/Footer'
 

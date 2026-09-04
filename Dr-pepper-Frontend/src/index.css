@@ -1,6 +1,28 @@
+:root {
+  /* Brand reds */
+  --dp-maroon: #7A0000;
+  --dp-deep-red: #890024;
+  --dp-accent-red: #C5023C;
 
-body {
+  /* Neutrals */
+  --dp-white: #FFFFFF;
+  --dp-black: #000000;
+
+ 
+  --dp-bg: var(--dp-maroon);
+  --dp-surface: #2b0000;
+  --dp-border: var(--dp-deep-red);
+  --dp-text: var(--dp-white);
+  --dp-text-muted: #f5d7dd;
+  --dp-primary: var(--dp-accent-red);
+  --dp-primary-hover: #e30645;
+}
+
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Archivo Black", sans-serif;  
 }
 
 

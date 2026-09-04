@@ -1,6 +1,6 @@
 import '../../Pages/Products/ProductsPage.css'
 
-import {Helmet} from 'react-helmet'
+import {Helmet} from 'react-helmet-async'
 
 import Header from '../../Components/Header/Header'
 import MainFooter from '../../Components/Footer/Footer'
