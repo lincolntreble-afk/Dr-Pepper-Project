@@ -1,0 +1,141 @@
+.Dr-pepper-home-section, .Dr-pepper-what-section, .check-products-section{
+    margin-top: 60px;
+}
+
+.home-container-head-section{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 70px;
+}
+
+.header, .sub-header{
+    color: var(--dp-accent-red);
+}
+
+.header{
+    font-size: 36px;
+}
+
+.sub-header{
+    font-size: 18px;
+}
+
+
+.home-container-text-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.dr-pepper-home-text{
+    text-align: center;
+    font-size: 18px;
+    color: var(--dp-deep-red);
+
+    width: 450px;
+}
+
+.dr-pepper-home-img{
+    width: 350px;
+    height: auto;
+    object-fit: cover;
+
+    filter: drop-shadow(33px 9px 10.2px rgba(0, 0, 0, 0.75));
+}
+
+.Dr-pepper-what-section{
+    background-color: var(--dp-maroon);
+
+    color: var(--dp-text);
+}
+
+.what-header-container{
+    display: flex;
+    justify-content: center;
+    
+    padding: 40px 0px;
+}
+
+.what-header{
+    font-size:36px ;
+}
+
+.Dr-pepper-text-img-section{
+    display: flex;
+
+    align-items: center;
+    justify-content: space-evenly;
+
+    margin-top: 20px;
+}
+
+.Dr-pepper-what-text-container{
+    width: 400px;
+
+    margin-bottom: 20px;
+}
+
+.Dr-pepper-what-text{
+    font-size: 18px;
+}
+
+.Learn-more-btn{
+    padding: 7px 10px;
+
+    border-radius: 5px;
+    border: none;
+
+    color: var(--dp-deep-red);
+
+    cursor: pointer;
+
+    transition: background-color 0.15s, color 0.15s;
+}
+
+
+.Learn-more-btn:hover{
+    background-color: var(--dp-deep-red);
+    color: var(--dp-text);
+}
+
+.what-img{
+    width:350px;
+    height: auto;
+    object-fit: cover;
+
+    border-radius: 20px;
+}
+
+
+.check-products-grid{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    column-gap: 20px;
+
+    padding: 0px 10px;
+
+    
+}
+
+
+.check-products-img{
+    width: 250px;
+    height: auto;
+
+    object-fit: cover;
+
+    
+}
+
+.check-products-img-container{
+    display: flex;
+    justify-content: center;
+}
+
+.check-products-column{
+    width: stretch;
+}

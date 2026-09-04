@@ -40,6 +40,8 @@ function MainFooter() {
                 </div>
             </div>
 
+            <hr className='footer-horizontal-divider'></hr>
+
             <div className="footer-bottom">
                 <p className="text-left-bottom">Dr Pepper is a registered trademark of Dr Pepper/Seven Up, Inc.</p>
                 <p>©2026 Dr Pepper/Seven Up, Inc.</p>

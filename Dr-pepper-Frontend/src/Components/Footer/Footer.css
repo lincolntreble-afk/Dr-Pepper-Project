@@ -1,3 +1,9 @@
+
+/* ==============================
+   FOOTER
+   ============================== */
+
+
 .footer {
   background: var(--dp-maroon);
   color: white;
@@ -5,6 +11,11 @@
   font-family: Arial, sans-serif;
 }
 
+
+
+/* ==============================
+   FOOTER-TOP
+   ============================== */
 .footer-top {
   display: flex;
   justify-content: space-between;
@@ -40,6 +51,11 @@
   color: var(--dp-primary);
 }
 
+
+
+/* ==============================
+   FOOTER ICONS
+   ============================== */
 .footer-social i {
   font-size: 1.8rem;
   margin-right: 1rem;
@@ -49,6 +65,16 @@
 
 .footer-social i:hover {
   color: var(--dp-primary);
+}
+
+
+
+/* ==============================
+   HR & FOOTER BOTTOM
+   ============================== */
+
+.footer-horizontal-divider{
+    margin-top: 30px;
 }
 
 
