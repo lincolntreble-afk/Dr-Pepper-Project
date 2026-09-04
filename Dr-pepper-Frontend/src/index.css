@@ -1,3 +1,5 @@
+@import "remixicon/fonts/remixicon.css";
+
 :root {
   /* Brand reds */
   --dp-maroon: #7A0000;
@@ -9,7 +11,7 @@
   --dp-black: #000000;
 
  
-  --dp-bg: var(--dp-maroon);
+  --dp-bg: #FAFAF9;
   --dp-surface: #2b0000;
   --dp-border: var(--dp-deep-red);
   --dp-text: var(--dp-white);
@@ -23,6 +25,17 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Archivo Black", sans-serif;  
+
+ 
+}
+
+body{
+  min-height: 100vh;
+  background-color: var(--dp-bg);
+}
+
+body::-webkit-scrollbar{
+    display: none;
 }
 
 
