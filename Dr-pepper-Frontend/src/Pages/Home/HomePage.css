@@ -1,4 +1,9 @@
-.Dr-pepper-home-section, .Dr-pepper-what-section, .check-products-section{
+/* ==============================
+   Home Page 
+   ============================== */
+
+
+.Dr-pepper-home-section, .Dr-pepper-what-section{
     margin-top: 60px;
 }
 
@@ -45,10 +50,16 @@
     filter: drop-shadow(33px 9px 10.2px rgba(0, 0, 0, 0.75));
 }
 
+/* ==============================
+   Home Page (What Section)
+   ============================== */
+
 .Dr-pepper-what-section{
     background-color: var(--dp-maroon);
 
     color: var(--dp-text);
+
+    padding-bottom: 20px;
 }
 
 .what-header-container{
@@ -81,7 +92,7 @@
     font-size: 18px;
 }
 
-.Learn-more-btn{
+.Learn-more-btn, .check-products-button{
     padding: 7px 10px;
 
     border-radius: 5px;
@@ -95,7 +106,7 @@
 }
 
 
-.Learn-more-btn:hover{
+.Learn-more-btn:hover, .check-products-button:hover{
     background-color: var(--dp-deep-red);
     color: var(--dp-text);
 }
@@ -109,6 +120,29 @@
 }
 
 
+/* ==============================
+   Home Page (Products Section)
+   ============================== */
+
+.check-products-section{
+    margin: 100px 0px;
+}
+
+
+.check-header-container{
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 35px;
+}
+
+.check-header{
+    font-size: 36px;
+    color: var(--dp-accent-red);
+}
+
+
+
 .check-products-grid{
     display: grid;
 
@@ -116,7 +150,7 @@
 
     column-gap: 20px;
 
-    padding: 0px 10px;
+    padding: 0px 20px;
 
     
 }
@@ -136,6 +170,37 @@
     justify-content: center;
 }
 
+
+.check-products-text-button-container{
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.check-products-text-container{
+    margin: 5px 0px;
+}
+
+.check-products-text{
+    color: var(--dp-accent-red);
+}
+
+
 .check-products-column{
     width: stretch;
+
+    padding-top: 30px;
+
+    border-radius: 10px;
+}
+
+.check-products-column:nth-child(1){
+    background-color: var(--dp-deep-red);
+}
+
+.check-products-column:nth-child(2){
+    background-color: #DDD6D8;
+}
+
+.check-products-column:nth-child(3){
+    background-color: #111111;
 }
