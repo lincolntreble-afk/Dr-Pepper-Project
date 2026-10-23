@@ -1,0 +1,84 @@
+/* ==============================
+   Home Page (Products Section)
+   ============================== */
+
+.check-products-section{
+    margin: 100px 0px;
+}
+
+
+.check-header-container{
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 35px;
+}
+
+.check-header{
+    font-size: 36px;
+    color: var(--dp-accent-red);
+}
+
+
+
+.check-products-grid{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    column-gap: 20px;
+
+    padding: 0px 20px;
+
+    
+}
+
+
+.check-products-img{
+    width: 250px;
+    height: auto;
+
+    object-fit: cover;
+
+    
+}
+
+.check-products-img-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.check-products-text-button-container{
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.check-products-text-container{
+    margin: 5px 0px;
+}
+
+.check-products-text{
+    color: var(--dp-accent-red);
+}
+
+
+.check-products-column{
+    width: stretch;
+
+    padding-top: 30px;
+
+    border-radius: 10px;
+}
+
+.check-products-column:nth-child(1){
+    background-color: var(--dp-deep-red);
+}
+
+.check-products-column:nth-child(2){
+    background-color: #DDD6D8;
+}
+
+.check-products-column:nth-child(3){
+    background-color: #111111;
+}

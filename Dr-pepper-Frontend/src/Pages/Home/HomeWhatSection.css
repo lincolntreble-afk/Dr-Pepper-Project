@@ -1,0 +1,70 @@
+/* ==============================
+   Home Page (What Section)
+   ============================== */
+
+.Dr-pepper-what-section{
+    background-color: var(--dp-maroon);
+
+    color: var(--dp-text);
+
+    padding-bottom: 20px;
+}
+
+.what-header-container{
+    display: flex;
+    justify-content: center;
+    
+    padding: 40px 0px;
+}
+
+.what-header{
+    font-size:36px ;
+}
+
+.Dr-pepper-text-img-section{
+    display: flex;
+
+    align-items: center;
+    justify-content: space-evenly;
+
+    margin-top: 20px;
+}
+
+.Dr-pepper-what-text-container{
+    width: 400px;
+
+    margin-bottom: 20px;
+}
+
+.Dr-pepper-what-text{
+    font-size: 18px;
+}
+
+.Learn-more-btn, .check-products-button{
+    padding: 7px 10px;
+
+    border-radius: 5px;
+    border: none;
+
+    color: var(--dp-deep-red);
+
+    cursor: pointer;
+
+    transition: background-color 0.15s, color 0.15s;
+}
+
+
+.Learn-more-btn:hover, .check-products-button:hover{
+    background-color: var(--dp-deep-red);
+    color: var(--dp-text);
+}
+
+.what-img{
+    width:350px;
+    height: auto;
+    object-fit: cover;
+
+    border-radius: 20px;
+}
+
+

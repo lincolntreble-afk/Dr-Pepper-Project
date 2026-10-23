@@ -6,6 +6,8 @@ import DrPepperDietcan from "../../assets/Dr-Pepper-diet-can.png"
 
 import DrPepper0Sugarcan from "../../assets/Dr-Pepper-0-sugar-can.png"
 
+import '../Home/CheckProducts.css'
+
 
 function CheckProductsSection() {
     return (

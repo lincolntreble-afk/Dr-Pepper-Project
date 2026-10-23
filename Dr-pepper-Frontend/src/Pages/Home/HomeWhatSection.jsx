@@ -2,6 +2,8 @@ import DrPepperHomecanWithIce from "../../assets/Dr-pepper-can-with-ice.jpg";
 
 import { Link } from 'react-router-dom'
 
+import '../Home/HomeWhatSection.css'
+
 function HomeWhatSection() {
     return (
         <section className="Dr-pepper-what-section">

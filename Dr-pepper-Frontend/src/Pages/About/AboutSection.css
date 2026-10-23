@@ -1,0 +1,68 @@
+.About-section {
+    margin-top: 60px;
+}
+
+.about-section-header-conatiner {
+    display: flex;
+
+    justify-content: center;
+}
+
+.about-section-header {
+    font-size: 36px;
+
+    color: var(--dp-accent-red);
+}
+
+.Dr-pepper-who-section {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 260px;
+}
+
+.Dr-pepper-who-left-section {
+    position: relative;
+    width: fit-content;
+
+    margin-left: 180px;
+}
+
+.stacked-img-1 {
+    position: relative;
+    width: 280px;
+}
+
+.stacked-img-2 {
+    position: absolute;
+    right: -140px;
+    bottom: -150px;
+    width: 280px;
+}
+
+.stacked-img-1,
+.stacked-img-2 {
+    border: solid 3px black;
+
+    border-radius: 5px;
+
+    transition:
+        transform 0.3s ease,
+        z-index 0.3s ease,
+        filter 0.3s ease;
+}
+
+.stacked-img-1:hover,
+.stacked-img-2:hover {
+    transform: scale(1.08);
+    z-index: 10;
+    filter: drop-shadow(0px 12px 18px rgba(0, 0, 0, 0.35));
+}
+
+.who-text {
+    text-align: center;
+    width: 65%;
+    color: var(--dp-deep-red);
+}
