@@ -4,6 +4,10 @@
     height: 64px;
 
     background-color: var(--dp-maroon) ;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     
 }
 
@@ -58,4 +62,10 @@
 
 .nav-links a:hover {
     color: var(--dp-primary-hover)
+}
+
+.cart-icon{
+    color: var(--dp-white);
+
+    font-size: 28px;
 }

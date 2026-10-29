@@ -17,7 +17,7 @@ function WhereToFindSection() {
                                 width="600"
                                 height="450"
                                 style={{ border: 0 }}
-                                allowfullScreen=""
+                                allowFullScreen=""
                                 loading="lazy"
                                 referrerPolicy="strict-origin-when-cross-origin"
                             />
@@ -51,7 +51,7 @@ function WhereToFindSection() {
 
                             <div className="email-info-container">
                                 <div className="email-icon-text-container">
-                                    <i class="ri-mail-fill email-icon"></i>
+                                    <i className="ri-mail-fill email-icon"></i>
                                     <div className="email-container">
                                         <p className="email">
                                             connect@ccep.com
@@ -62,7 +62,7 @@ function WhereToFindSection() {
 
                             <div className="direction-info-container">
                                 <div className="direction-icon-text-container">
-                                    <i class="ri-direction-fill direction-icon"></i>
+                                    <i className="ri-direction-fill direction-icon"></i>
                                     <div className="direction-container">
                                         <p className="direction">
                                             Situated in Uxbridge town centre,

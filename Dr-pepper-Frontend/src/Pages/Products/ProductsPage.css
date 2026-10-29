@@ -29,7 +29,8 @@
 
 
 .products-section{
-    margin: 80px 0px;
+    margin-top: 80px;
+    margin-bottom: 25px;
 }
 
 .our-products-grid{
@@ -44,32 +45,64 @@
 .our-products-column{
     width: stretch;
 
-    padding-top: 30px;
+    padding: 50px 0px;
 }
 
 .our-products-img-container{
     display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
     justify-content: center;
 }
 
 .our-products-img{
-    width: 250px;
-    height: auto;
+    width: 150px;
+    height: 300px;
 
     object-fit: cover;
 
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 
 
-.our-products-column:nth-child(1){
-    background-color: var(--dp-deep-red);
+.our-products-column:nth-child(n+1):nth-child(-n+18) {
+    background-color: var(--col-bg);
 }
 
-.our-products-column:nth-child(2){
-    background-color: #DDD6D8;
+.our-products-column:nth-child(1)  { --col-bg: var(--dp-deep-red); }
+.our-products-column:nth-child(2)  { --col-bg: #DDD6D8; }
+.our-products-column:nth-child(3)  { --col-bg: #111111; }
+.our-products-column:nth-child(4)  { --col-bg: #5EBCEB; }
+.our-products-column:nth-child(5)  { --col-bg: #9BD7F5; }
+.our-products-column:nth-child(6)  { --col-bg: #7F1A76; }
+.our-products-column:nth-child(7)  { --col-bg: #401749; }
+.our-products-column:nth-child(8)  { --col-bg: #E88597; }
+.our-products-column:nth-child(9)  { --col-bg: #DB5E75; }
+.our-products-column:nth-child(10) { --col-bg: #FF4D56; }
+.our-products-column:nth-child(11) { --col-bg: #04474F; }
+.our-products-column:nth-child(12) { --col-bg: #F5DFCA; }
+.our-products-column:nth-child(13) { --col-bg: #F2C58B; }
+.our-products-column:nth-child(14) { --col-bg: #B99353; }
+.our-products-column:nth-child(15) { --col-bg: #FFF0CA; }
+.our-products-column:nth-child(16) { --col-bg: #540520; }
+.our-products-column:nth-child(17) { --col-bg: #FFE786; }
+.our-products-column:nth-child(18) { --col-bg: #C81C32; }
+
+
+
+
+.our-products-text-dark, .our-products-text-light{
+
+    font-size: 24px;
+
+    text-align: center;
+
+    width: 350px;
 }
 
-.our-products-column:nth-child(3){
-    background-color: #111111;
+
+.our-products-text-light{
+    color: var(--dp-white);
 }

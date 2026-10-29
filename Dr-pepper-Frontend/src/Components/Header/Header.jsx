@@ -30,6 +30,12 @@ function Header () {
                             <NavLink to = "/products">Products</NavLink>
                         </li>
 
+                        <li className='nav-link'>
+                            <NavLink to = "/product-info">
+                                <i className="ri-shopping-basket-2-fill  cart-icon"></i>
+                            </NavLink>
+                        </li>
+
                     </ul>
                 </div>
             </div>
