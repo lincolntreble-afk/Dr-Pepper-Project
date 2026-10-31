@@ -1,0 +1,28 @@
+.our-products-section{
+    margin: 100px 0px;
+}
+
+.our-headers-container{
+
+    flex-direction: column;
+
+    display: flex;
+    align-items: center;
+}
+
+.our-header{
+    font-size: 36px;
+    color: var(--dp-accent-red);
+}
+
+.sub-header-container{
+    text-align: center;
+
+    margin-top: 10px;
+}
+
+.our-sub-header{
+    color: var(--dp-accent-red);
+
+    max-width: 380px;
+}
