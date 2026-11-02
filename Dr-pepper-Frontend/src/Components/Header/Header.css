@@ -69,3 +69,12 @@
 
     font-size: 28px;
 }
+
+.product-quantity{
+
+    position: fixed;
+
+    top: 4px;
+    right: 77px;
+    
+}

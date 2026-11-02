@@ -1,10 +1,12 @@
 import products from "../../data/products";
 
+import {Link} from 'react-router-dom'
+
 import "../Products/ProductsSection.css";
 
 function ProductSection() {
     return (
-        <>
+        <Link to = '/product-info'>
             <section className="products-section">
                 <div className="our-products-grid">
                     {products.map((product) => {
@@ -33,7 +35,7 @@ function ProductSection() {
                     })}
                 </div>
             </section>
-        </>
+        </Link>
     );
 }
 
