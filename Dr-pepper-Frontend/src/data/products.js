@@ -1,4 +1,3 @@
-
 import DrPepperogcan from "../assets/Dr-pepper-og-can.png";
 import DrPepperDietcan from "../assets/Dr-Pepper-diet-can.png";
 import DrPepper0Sugarcan from "../assets/Dr-Pepper-0-sugar-can.png";
@@ -26,7 +25,6 @@ import DrPepperDietCherryVanilla from "../assets/images/products/DP_Diet_CherryV
 
 import DrPepperRealSugarCan from "../assets/images/products/DP_RealSugar.png";
 
-
 const products = [
     {
         id: "dp-001",
@@ -35,9 +33,10 @@ const products = [
         image: DrPepperogcan,
         rating: {
             stars: 5,
-            count: 245
+            count: 245,
         },
-        description: "The original Dr Pepper, featuring its signature blend of 23 flavours. A unique combination of sweet, bold and refreshing flavours."
+        description: `As authentic as a vintage "I'm a Pepper®" tee, Dr Pepper is always original. A signature blend of 23 flavors makes every sip of Dr Pepper truly unique. There's nothing like a Dr Pepper.`,
+        bg: "var(--dp-deep-red)",
     },
     {
         id: "dp-002",
@@ -46,9 +45,11 @@ const products = [
         image: DrPepperDietcan,
         rating: {
             stars: 4.5,
-            count: 182
+            count: 182,
         },
-        description: "Enjoy the distinctive taste of Dr Pepper with a lighter, diet alternative that delivers the familiar flavour without the regular sugar."
+        description:
+            "A satisfying diet drink does exist! Diet Dr Pepper offers the same 23 flavors of regular Dr Pepper, without the calories. Try one today and enjoy the unbelievably satisfying taste.",
+        bg: "#DDD6D8",
     },
     {
         id: "dp-003",
@@ -57,9 +58,11 @@ const products = [
         image: DrPepper0Sugarcan,
         rating: {
             stars: 4.5,
-            count: 210
+            count: 210,
         },
-        description: "All the bold flavour of original Dr Pepper, without the sugar. A refreshing alternative for those looking for a zero-sugar option."
+        description:
+            "And just when you thought perfect flavor couldn’t get any more perfect-er. This zero-sugar captivates your tastebuds with the iconic blend of 23 flavors. It’s the delicious double-take your tastebuds deserve.",
+        bg: "#111111",
     },
     {
         id: "dp-004",
@@ -68,9 +71,11 @@ const products = [
         image: DrPepperCreamyCoconutCan,
         rating: {
             stars: 4.5,
-            count: 156
+            count: 156,
         },
-        description: "A tropical twist on the classic Dr Pepper flavour, combining its signature taste with smooth and creamy coconut notes."
+        description:
+            "LIMITED TIME: Indulge in the ultimate treat for summer — Dr Pepper Creamy Coconut soda beverage, a combination of distinctive Dr Pepper flavor with the refreshing taste of coconut.",
+        bg: "#5EBCEB",
     },
     {
         id: "dp-005",
@@ -79,9 +84,11 @@ const products = [
         image: DrPepperCreamyCoconut0SugarCan,
         rating: {
             stars: 4,
-            count: 98
+            count: 98,
         },
-        description: "The tropical combination of Dr Pepper and creamy coconut, available in a zero-sugar version while keeping its distinctive flavour."
+        description:
+            "LIMITED TIME: Indulge in the ultimate treat for summer — Dr Pepper Creamy Coconut soda beverage, a combination of distinctive Dr Pepper flavor with the refreshing taste of coconut.",
+        bg: "#9BD7F5",
     },
     {
         id: "dp-006",
@@ -90,9 +97,10 @@ const products = [
         image: DrPepperBlackberryCan,
         rating: {
             stars: 4.5,
-            count: 134
+            count: 134,
         },
-        description: "A fruity variation of the original Dr Pepper, combining its signature 23 flavours with a sweet blackberry twist."
+        description: `You ask yourself every morning, “What flavor could Dr Pepper possibly do next?”. The answer is Blackberry. Dr Pepper Blackberry sounds as good as it tastes and tastes as good as it sounds. Its bold, one-of-a-kind flavor leaves you as curious as you are satisfied. But no more questions, just close your eyes and savor every sip.`,
+        bg: "#7F1A76",
     },
     {
         id: "dp-007",
@@ -101,9 +109,11 @@ const products = [
         image: DrPepperBlackberry0SugarCan,
         rating: {
             stars: 4,
-            count: 87
+            count: 87,
         },
-        description: "A zero-sugar take on Dr Pepper Blackberry, bringing together the familiar flavour of Dr Pepper and fruity blackberry notes."
+        description:
+            "If you’re reading this then you’re probably here to be reassured that Dr Pepper Blackberry Zero Sugar has the same bold, sweet flavor as Dr Pepper Blackberry. Well guess what? It does. So crack one and sip away with zero guilt my blackberry-loving- sugar-hating-friend.",
+        bg: "#401749",
     },
     {
         id: "dp-008",
@@ -112,9 +122,11 @@ const products = [
         image: DrPepperStrawberriesCreamCan,
         rating: {
             stars: 5,
-            count: 192
+            count: 192,
         },
-        description: "A sweet and creamy combination of Dr Pepper's signature flavour with the taste of strawberries and smooth cream."
+        description:
+            "Welcome Dr Pepper Strawberries & Cream to our ensemble of deliciousness. A refreshing strawberry flavor with a smooth, creamy finish that’ll leave your taste buds craving more. Sip slowly, and soothe yourself into a strawberry state of mind.",
+        bg: "#E88597",
     },
     {
         id: "dp-009",
@@ -123,9 +135,11 @@ const products = [
         image: DrPepperStrawberriesCream0SugarCan,
         rating: {
             stars: 4.5,
-            count: 112
+            count: 112,
         },
-        description: "The fruity combination of strawberries, cream and Dr Pepper, offered in a zero-sugar alternative."
+        description:
+            "Dr Pepper Strawberries & Cream Zero Sugar is here. It’s the same smooth, creamy, strawberry flavor you know and love, without the sugar. Crack open the sugarless treat you deserve, and ride this highway to the flavor zone.",
+        bg: "#DB5E75",
     },
     {
         id: "dp-010",
@@ -134,9 +148,11 @@ const products = [
         image: DrPepperCherryCan,
         rating: {
             stars: 4.5,
-            count: 143
+            count: 143,
         },
-        description: "A cherry-inspired twist on the original Dr Pepper, combining its recognisable flavour with sweet cherry notes."
+        description:
+            "Introducing Dr Pepper Cherry. The newest, smoothest addition to the Dr Pepper family that's so amazingly smooth you just have to try it. A kiss of cherry makes it the smoothest Dr Pepper ever. Drink it smoother. Dr's orders.",
+        bg: "#FF4D56",
     },
     {
         id: "dp-011",
@@ -145,9 +161,11 @@ const products = [
         image: DrPepperCherry0SugarCan,
         rating: {
             stars: 4,
-            count: 91
+            count: 91,
         },
-        description: "The classic Dr Pepper Cherry flavour in a zero-sugar alternative, offering a fruity and refreshing taste."
+        description:
+            "Introducing Dr Pepper Cherry Zero Sugar. The delicious taste you loved from Diet Cherry, now brought to life with the same smooth blend of cherry and Dr Pepper Zero Sugar. It’s the smooth cherry treat you deserve.",
+        bg: "#04474F",
     },
     {
         id: "dp-012",
@@ -156,9 +174,11 @@ const products = [
         image: DrPepperCreamSodaCan,
         rating: {
             stars: 4.5,
-            count: 165
+            count: 165,
         },
-        description: "A smooth combination of Dr Pepper's signature flavour and the sweet, creamy taste of classic cream soda."
+        description:
+            "A brand-new duet that is sweeter than any other. The beloved Dr Pepper paired with the richness of cream soda makes for perfect flavor harmony. Take a sip of the symphony of deliciousness.",
+        bg: "#F5DFCA",
     },
     {
         id: "dp-013",
@@ -167,9 +187,11 @@ const products = [
         image: DrPepperCreamSoda0SugarCan,
         rating: {
             stars: 4,
-            count: 105
+            count: 105,
         },
-        description: "The smooth and creamy taste of Dr Pepper and cream soda, recreated in a zero-sugar version."
+        description:
+            "From the tastemakers who brought you Diet Dr Pepper & Cream Soda comes Dr Pepper & Cream Soda Zero Sugar. The richness of cream soda harmonizes with all 23 flavors of Dr Pepper in the delicious zero-sugar treat you deserve.",
+        bg: "#F2C58B",
     },
     {
         id: "dp-014",
@@ -178,9 +200,11 @@ const products = [
         image: DrPepperCaffeineFreeCan,
         rating: {
             stars: 4,
-            count: 76
+            count: 76,
         },
-        description: "Enjoy the distinctive taste of original Dr Pepper without the caffeine, while retaining its familiar flavour."
+        description:
+            "Maybe you don't need that extra pep of caffeine. Maybe you're plenty peppy just the way you are. You can still enjoy that same authentic Dr Pepper taste. Caffeine Free Dr Pepper delivers that original blend of 23 flavors you expect. Enjoy it slow, in that relaxed decaffeinated rhythm of yours, and you'll taste all 23. It's everything you love about Dr Pepper, without the caffeine.",
+        bg: "#B99353",
     },
     {
         id: "dp-015",
@@ -189,9 +213,11 @@ const products = [
         image: DrPepperDietCaffeineFreeCan,
         rating: {
             stars: 4,
-            count: 68
+            count: 68,
         },
-        description: "A diet version of Dr Pepper that combines its familiar flavour with a caffeine-free alternative."
+        description:
+            "Caffeine Free Diet Dr Pepper brings you the taste, and nothing but the taste. No calories, no caffeine, just the rich, bold refreshment of Dr Pepper. That signature blend is so rich and bold, you won't miss what's missing. Sip, don't chug: research shows slower is better. You'll see there's nothing diet (or caffeinated) about it.",
+        bg: "#FFF0CA",
     },
     {
         id: "dp-016",
@@ -200,9 +226,11 @@ const products = [
         image: DrPepperCherryVanilla,
         rating: {
             stars: 4.5,
-            count: 119
+            count: 119,
         },
-        description: "A combination of sweet cherry and smooth vanilla flavours blended with the original Dr Pepper taste."
+        description:
+            "A splash of cherry, a hint of vanilla, and the authentic taste of Dr Pepper. That's one tasteful triple threat, otherwise known as Cherry Vanilla Dr Pepper, a refreshing blast from the past. Don't chug, people. You'll want to savor this rich soda fountain goodness. So pull up a seat and enjoy a taste so flavorful it just goes on and on and on...",
+        bg: "#540520",
     },
     {
         id: "dp-017",
@@ -211,9 +239,11 @@ const products = [
         image: DrPepperDietCherryVanilla,
         rating: {
             stars: 4,
-            count: 83
+            count: 83,
         },
-        description: "A lighter diet alternative combining the fruity taste of cherry and smooth vanilla with Dr Pepper's signature flavour."
+        description:
+            "On the first sip, you taste the splash of bold cherry. Then comes a light note of vanilla, and it's all wrapped in the authentic flavor of Dr Pepper. So where's the diet? Sorry, there's nothing diet about this delicious soda fountain blend. Until you read our handy nutrition facts and discover a blissful absence of calories. Enjoy it slow, like the uncompromising connoisseur you are.",
+        bg: "#FFE786",
     },
     {
         id: "dp-018",
@@ -222,10 +252,12 @@ const products = [
         image: DrPepperRealSugarCan,
         rating: {
             stars: 5,
-            count: 104
+            count: 104,
         },
-        description: "A variation of the original Dr Pepper made with real sugar, delivering its familiar blend of 23 distinctive flavours."
-    }
+        description:
+            "Made with Imperial Pure Cane Sugar, the 23 flavors of Dr Pepper have never tasted so special. Made with Sugar, made for you! Try Dr Pepper Made with Sugar now.",
+        bg: "#C81C32",
+    },
 ];
 
 export default products;

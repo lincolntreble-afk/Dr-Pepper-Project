@@ -1,8 +1,10 @@
 import { Helmet } from "react-helmet-async";
 
 import Header from "../../Components/Header/Header"
-
 import MainFooter from "../../Components/Footer/Footer"
+import ProductInfoSwiper from "../../Swiper-ProductInfo-Swiper/Swiper-ProductInfo";
+
+
 
 function ProductInfo () {
     return(
@@ -13,6 +15,8 @@ function ProductInfo () {
 
 
             <Header />
+
+                <ProductInfoSwiper />
 
             <MainFooter />
 

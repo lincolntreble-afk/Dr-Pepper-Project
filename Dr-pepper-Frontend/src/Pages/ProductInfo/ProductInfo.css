@@ -1,0 +1,89 @@
+.product-info-swiper{
+    height: auto;
+
+    color: var(--dp-white);
+}
+
+.product-info-swiper-slide{
+    border-radius: 0px;
+
+    padding: 100px;
+}
+
+.product-info-main-container{
+    display: flex;
+
+    gap: 140px;
+}
+
+.DP-name{
+    font-size: 36px;
+}
+
+.DP-product-img{
+    height: 500px;
+    width: 250px;
+
+    object-fit: cover;
+}
+
+.Add-to-cart-header{
+    font-size: 24px;
+}
+
+.Add-to-cart-stock-count{
+    font-size: 12px;
+}
+
+.Add-to-cart-buttons-container{
+    display: flex;
+
+    align-items: center;
+
+    margin: 15px 0px;
+}
+
+
+.add-button, .subtract-button, .Add-to-cart-button{
+    background-color: var(--dp-deep-red);
+
+    border: solid 1px #ffff;
+    border-radius: 5px;
+
+    padding: 5px 12px;
+
+    cursor: pointer;
+
+    color: var(--dp-white)
+}
+
+.quantity{
+    margin: 0px 5px ;
+
+}
+
+.add-icon, .subtract-icon{
+    font-size: 12px;
+
+    color: var(--dp-white);
+
+}
+
+.Add-to-cart-button-container{
+    margin-left: 10px;
+}
+
+.Flavour-details-header{
+    font-size: 24px;
+
+    margin-top: 25px;
+    margin-bottom: 5px;
+
+    text-decoration: underline;
+
+}
+
+.Flavour-details-description{
+    max-width: 700px;
+}
+
