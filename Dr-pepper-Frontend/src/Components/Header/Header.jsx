@@ -2,9 +2,14 @@ import '../../Components/Header/Header.css'
 
 import { NavLink } from 'react-router-dom'
 
+import { getTotalQuantity } from '../../data/cart'
+
 import Logo from '../../assets/Dr-pepper-logo.png'
 
-function Header () {
+function Header ({cart}) {
+
+    const totalItems = getTotalQuantity(cart)
+
     return(
 
         <nav className='nav-bar'>
@@ -34,7 +39,7 @@ function Header () {
                             <NavLink to = "/checkout">
                                 <i className="ri-shopping-basket-2-fill  cart-icon"></i>
 
-                                <p className='product-quantity'>0</p>
+                                <p className='product-quantity'>{totalItems}</p>
                             </NavLink>
                         </li>
 

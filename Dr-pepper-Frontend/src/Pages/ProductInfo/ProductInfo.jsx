@@ -6,7 +6,7 @@ import ProductInfoSwiper from "../../Swiper-ProductInfo-Swiper/Swiper-ProductInf
 
 
 
-function ProductInfo () {
+function ProductInfo ({handleAddItem}) {
     return(
         <>
             <Helmet>
@@ -16,7 +16,7 @@ function ProductInfo () {
 
             <Header />
 
-                <ProductInfoSwiper />
+                <ProductInfoSwiper handleAddItem = {handleAddItem} />
 
             <MainFooter />
 
