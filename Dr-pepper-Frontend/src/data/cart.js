@@ -1,15 +1,15 @@
 // Adds an item or increments its quantity
 export function addToCart(currentCart, productId , amount =1) {
-  const currentQty = currentCart[productId] || 0;
+  const currentQty = Number(currentCart[productId]) || 0;
   
   return {
     ...currentCart,
-    [productId]: currentQty + amount
+    [productId]: currentQty + Number(amount)
   };
 }
 
 // Lowers the quantity, or deletes the key entirely if it hits 0
-export function removeFromCart(currentCart, productId) {
+export function removeFromCart(currentCart, productId, amount=1) {
   const currentQty = currentCart[productId] || 0;
   
   if (currentQty <= 1) {
@@ -20,11 +20,11 @@ export function removeFromCart(currentCart, productId) {
   
   return {
     ...currentCart,
-    [productId]: currentQty - 1
+    [productId]: currentQty - amount
   };
 }
 
 export function getTotalQuantity(cart = {}) {
   if (!cart) return 0; // Prevents crashing if cart is explicitly null
-  return Object.values(cart).reduce((sum, qty) => sum + qty, 0);
+  return Object.values(cart).reduce((sum, qty) => sum + Number(qty), 0);
 }

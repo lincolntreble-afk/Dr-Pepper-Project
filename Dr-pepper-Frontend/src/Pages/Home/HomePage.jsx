@@ -13,7 +13,7 @@ import HomeWhatSection from './HomeWhatSection'
 import CheckProductsSection from './CheckProductsSection'
 
 
-function HomePage() {
+function HomePage({cart}) {
     return (
         <>
             <Helmet>
@@ -21,7 +21,7 @@ function HomePage() {
             </Helmet>
 
 
-            <Header />
+            <Header cart={cart} />
 
                 <HomeSection /> 
         

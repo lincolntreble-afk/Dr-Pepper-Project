@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 
-import { useState } from 'react'
+import { useState, useEffect} from 'react'
 
 import { addToCart, removeFromCart } from './data/cart'
 
@@ -13,16 +13,26 @@ import CheckoutPage from './Pages/Checkout/CheckoutPage'
 
 function App() {
 
-  const [cart, setCart] = useState({})
+  const [cart, setCart] = useState(() => {
+    const saved = localStorage.getItem('shopping_cart');
+    return saved ? JSON.parse(saved) : {}
+  })
 
 
-  const handleAddItem = (id) => {
-      setCart((prevCart) => addToCart(prevCart, id))
+  useEffect(() => {
+    localStorage.setItem('shopping_cart', JSON.stringify(cart));
+  }, [cart])
+
+
+  const handleAddItem = (id, amount) => {
+      setCart((prevCart) => addToCart(prevCart, id, amount))
   }
 
-  const handleRemoveItem = (id) => {
-    setCart((prevCart) => removeFromCart(prevCart, id))
+  const handleRemoveItem = (id, amount) => {
+    setCart((prevCart) => removeFromCart(prevCart, id, amount))
   }
+
+  
 
 
   return (
