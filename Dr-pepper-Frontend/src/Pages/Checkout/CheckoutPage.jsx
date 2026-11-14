@@ -8,14 +8,14 @@ import "../Checkout/CheckoutPage.css";
 import DrPepperRealSugarCan from "../../assets/images/products/DP_RealSugar.png";
 import DrPepperogcan from "../../assets/Dr-pepper-og-can.png";
 
-function CheckoutPage() {
+function CheckoutPage({cart}) {
     return (
         <>
             <Helmet>
                 <title>Checkout</title>
             </Helmet>
 
-            <Header />
+            <Header cart={cart} />
 
             <div className="page-title">
                 <p className="checkout-title"> Checkout (2 items) </p>

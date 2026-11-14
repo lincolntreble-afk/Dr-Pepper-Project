@@ -11,14 +11,14 @@ import OriginSection from "./OriginSection";
 import WhereToFindSection from "./WhereToFindSection";
 
 
-function AboutPage() {
+function AboutPage({cart}) {
     return (
         <>
             <Helmet>
                 <title>About Page</title>
             </Helmet>
 
-            <Header />
+            <Header cart={cart}/>
 
             <AboutSection />
 

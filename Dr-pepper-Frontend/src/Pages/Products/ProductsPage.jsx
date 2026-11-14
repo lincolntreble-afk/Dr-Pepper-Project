@@ -9,14 +9,14 @@ import OurProductsSection from "./OurProductsSection";
 import ProductSection from "./ProductsSection";
 
 
-function ProductsPage() {
+function ProductsPage({cart}) {
     return (
         <>
             <Helmet>
                 <title>Products Page</title>
             </Helmet>
 
-            <Header />
+            <Header cart={cart} />
 
             <OurProductsSection />
 
