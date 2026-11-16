@@ -18,7 +18,7 @@
 
     padding: 20px 100px;
 
-    gap: 200px;
+    gap: 500px;
 }
 
 .product-info-left-section{
@@ -37,6 +37,7 @@
 
 .product-container{
     margin-bottom: 20px;
+    width: 170%;
 }
 
 .product-info-img{
@@ -92,7 +93,7 @@
 
     color: var(--dp-white);
 
-    width: auto;
+    width: 100%;
 
     padding: 15px 20px;
 }

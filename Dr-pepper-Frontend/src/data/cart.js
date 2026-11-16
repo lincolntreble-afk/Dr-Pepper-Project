@@ -28,3 +28,7 @@ export function getTotalQuantity(cart = {}) {
   if (!cart) return 0; // Prevents crashing if cart is explicitly null
   return Object.values(cart).reduce((sum, qty) => sum + Number(qty), 0);
 }
+
+export function formatCurrency(pricePennies) {
+  return `£${(pricePennies / 100).toFixed(2)}`;
+}
