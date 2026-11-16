@@ -42,12 +42,12 @@ function ProductSlideContent({ product, handleAddItem }) {
                     
 
                     <div className="Add-to-cart-buttons-container">
-                        <button className="add-button" onClick={handleIncrement}>
-                            <i className="ri-add-line add-icon"></i>
+                        <button className="add-button" onClick={handleDecrement}>
+                            <i className="ri-subtract-fill subtract-icon"></i>
                         </button>
                         <p className="quantity">{count}</p>
-                        <button className="subtract-button" onClick={handleDecrement}>
-                            <i className="ri-subtract-fill subtract-icon"></i>
+                        <button className="subtract-button" onClick={handleIncrement}>
+                            <i className="ri-add-line add-icon"></i>
                         </button>
 
                         <div className="Add-to-cart-button-container">
